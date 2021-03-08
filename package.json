@@ -1,0 +1,33 @@
+{
+  "name": "youtube-clone-backend",
+  "version": "1.0.0",
+  "description": "Youtube Web Application Backend Configuration Using Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rajat Sachan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "generate-unique-id": "^2.0.1",
+    "mongodb": "^3.6.4",
+    "nodemailer": "^6.5.0",
+    "randomstring": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatsachan7/Backend-YTClone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajatsachan7/Backend-YTClone/issues"
+  },
+  "homepage": "https://github.com/rajatsachan7/Backend-YTClone#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
